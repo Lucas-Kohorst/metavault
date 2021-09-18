@@ -1,0 +1,96 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "RibbonLongStrangleVaultStorageV1",
+  "sourceName": "contracts/V2/storage/RibbonLongStrangleVaultStorage.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "auctionCallSellOrder",
+      "outputs": [
+        {
+          "internalType": "uint96",
+          "name": "sellAmount",
+          "type": "uint96"
+        },
+        {
+          "internalType": "uint96",
+          "name": "buyAmount",
+          "type": "uint96"
+        },
+        {
+          "internalType": "uint64",
+          "name": "userId",
+          "type": "uint64"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "auctionPutSellOrder",
+      "outputs": [
+        {
+          "internalType": "uint96",
+          "name": "sellAmount",
+          "type": "uint96"
+        },
+        {
+          "internalType": "uint96",
+          "name": "buyAmount",
+          "type": "uint96"
+        },
+        {
+          "internalType": "uint64",
+          "name": "userId",
+          "type": "uint64"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "balanceBeforePremium",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "counterpartyThetaVault",
+      "outputs": [
+        {
+          "internalType": "contract IRibbonThetaVault",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "optionAllocation",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
