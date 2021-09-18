@@ -1,0 +1,14 @@
+node_modules
+
+# yarn files 
+yarn-error.log
+
+#Hardhat files
+cache
+artifacts
+.vscode
+.env
+coverage.json
+coverage/
+
+.DS_STORE
